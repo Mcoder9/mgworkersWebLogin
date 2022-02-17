@@ -62,9 +62,14 @@ def renewSubscription():
         userData = query[0]
         print(userData)
         if userData['Manager'] == 'adminMgcoder':
-            return render_template('paymentInfo.html')
+            return render_template('jazzcash.html')
         if userData['Manager'] == 'Shams':
-            return "Contact Shamsudding"
+            
+            return """
+            <h2>Contact us:</h2>
+            <p>Email:  ronisham39@gmail.com</p>
+            <p>WhatsAPP:  +880-1998-561257</p>
+            <p>Telegram:  @shams1739</p>"""
     except:
         return redirect('/')
 
@@ -90,7 +95,7 @@ def validateUser(username, password):
             else:
                 return redirect(url_for('expired'))
         else:
-            return "Paused"
+            return "<h3>You are temprary paused due to some reason. Contact to the service provider</h3>"
     else:
         return redirect("/")
 

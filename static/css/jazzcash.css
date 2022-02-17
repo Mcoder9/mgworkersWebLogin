@@ -1,0 +1,146 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url("images/jazzcash-background.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 1000px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 6rem;
+  font-weight: 700;
+  font-family: Acme;
+  margin: 170px auto 0;
+}
+
+.u-section-1 .u-group-1 {
+  width: 655px;
+  min-height: 490px;
+  background-image: none;
+  height: auto;
+  margin: 45px auto 190px 220px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.u-section-1 .u-image-1 {
+  width: 174px;
+  height: 174px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: Acme;
+  font-size: 1.5rem;
+  width: 404px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-text-3 {
+  font-family: Acme;
+  font-size: 1.5rem;
+  width: 403px;
+  margin: 20px auto 0;
+}
+
+.u-section-1 .u-text-4 {
+  font-family: Acme;
+  width: 403px;
+  margin: 30px auto 0;
+}
+
+.u-section-1 .u-text-5 {
+  font-weight: 400;
+  width: 424px;
+  margin: 30px auto 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1325px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: -716px;
+  }
+
+  .u-section-1 .u-group-1 {
+    background-position: 50% 50%;
+    height: auto;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: 70px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 165px;
+    margin-top: 113px;
+  }
+
+  .u-section-1 .u-text-5 {
+    width: 403px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-group-1 {
+    margin-left: 65px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1294px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: -685px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 540px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 93px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1066px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.75rem;
+    margin-top: -458px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-4 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-5 {
+    width: 340px;
+  }
+}
